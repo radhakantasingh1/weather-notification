@@ -43,6 +43,14 @@ jobs:
             echo "MY_PASSWORD is configured"
           fi
 
+          if [ -z "$OWM_API_KEY" ]; then
+            echo "MY_PASSWORD secret is not set!"
+            echo "Go to Settings > Secrets > Actions and add it."
+            exit 1
+          else
+            echo "MY_PASSWORD is configured"
+          fi
+
           echo ""
           echo "All secrets are configured!"
 

@@ -3,7 +3,6 @@ import os
 from twilio.rest import Client
 
 
-API_KEY="72fa71c77a29ca6048a5006f7324a53e"
 #lat and long of a place where it is currently raining
 LAT=17.686815
 LONG=83.218483
